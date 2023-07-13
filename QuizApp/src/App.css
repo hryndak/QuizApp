@@ -5,3 +5,7 @@ main {
 body {
   margin: 200px;
 }
+
+* {
+  border: 1px white solid;
+}
