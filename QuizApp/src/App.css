@@ -1,3 +1,7 @@
 main {
   opacity: 10px;
 }
+
+body {
+  margin: 200px;
+}
