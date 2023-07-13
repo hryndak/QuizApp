@@ -9,3 +9,7 @@ body {
 * {
   border: 1px white solid;
 }
+
+h1 {
+  width: 10px;
+}
