@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import quizblock from './quizblock'
+import Quizblock from "./quizblock.jsx"
 
-function App() {
-
+export default function App() {
   return (
-    <quizblock />
+    <Quizblock />
   )
 }
-
-export default App
