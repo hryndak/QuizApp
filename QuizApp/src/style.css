@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.inputs input[type="text"] {
+.inputs{
     margin-bottom: 10px;
 }
 

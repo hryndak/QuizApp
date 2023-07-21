@@ -3,18 +3,7 @@ import he from "he"
 
 export default function Quizblock() {
 
-    const [data, setData] = React.useState([]);
-    const questions = [];
-    const fetchData = () => {
-        fetch('https://opentdb.com/api.php?amount=5')
-            .then(res => res.json())
-            .then(data => setData(data.results))
-            .catch(err => err)
-    }
-
-    React.useEffect(() => {
-        fetchData()
-    }, []);
+    
 
     console.log(data);
 
