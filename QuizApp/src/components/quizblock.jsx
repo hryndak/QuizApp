@@ -1,22 +1,12 @@
 import React from "react";
 import he from "he"
+import './home.jsx'
 
-export default function Quizblock() {
-
-    
-
-    console.log(data);
+export default function Quizblock(props) {
 
     return (
         <div>
-            {data.map((ele) => {
-                return (
-                    <div>
-                        <h2>{he.decode(ele.question)}</h2>
-                        <h3>{he.decode(ele.correct_answer)}</h3>
-                    </div>
-                )
-            })}
+            <h1>{props.data[0].question}</h1>
         </div>
     )
 }
