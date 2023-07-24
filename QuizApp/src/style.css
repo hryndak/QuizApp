@@ -1,28 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.title {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #293264;
 }
 
 .home{
+    display: flex;
     width: 100vw;
     height: 100vh;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     border: 1px black solid;
-    display: flex;
     background-color: #F5F7FB;
+}
+
+.home-content {
+    height: 100%;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
-.inputs{
-    margin-bottom: 10px;
+.inputs input[type=number] {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    width: 288px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px black solid;
+    color: #293264;
 }
 
-.home-content  h1 {
-    display: flex;
-    justify-content: center;
+.inputs input[type=number]:hover {
+    background: #D6DBF5;
+}
+
+.inputs input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.inputs input[type=submit] {
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    border: 0;
+    color: #F5F7FB;
+    background: #4D5B9E;
+}
+
+.inputs select {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px black solid;
+    color: #293264;
+}
+
+.inputs select:hover {
+    background: #D6DBF5;
+}
+
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: green;
 }
