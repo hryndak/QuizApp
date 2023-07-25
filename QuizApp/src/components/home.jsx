@@ -11,7 +11,7 @@ export default function StartPage(props) {
                         min={1}
                         max={10}
                         type="number"
-                        required="true"
+                        required
                         name="questions"
                         onChange={(e) => {
                             props.setPreferences(prev => ({
@@ -22,7 +22,7 @@ export default function StartPage(props) {
                     />
                     <select
                         name="category"
-                        required="true"
+                        required
                         onChange={(e) => {
                             props.setPreferences(prev => ({
                                 ...prev,
@@ -42,7 +42,7 @@ export default function StartPage(props) {
                         <option>Art</option>
                     </select>
                     <select
-                        required="true"
+                        required
                         name="difficulty"
                         onChange={(e) => {
                             props.setPreferences(prev => ({

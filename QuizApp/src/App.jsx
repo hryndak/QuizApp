@@ -28,7 +28,6 @@ export default function App() {
     Art: 25
   }
 
-
   const fetchData = () => {
     fetch(`https://opentdb.com/api.php?amount=${preferences.questions}&category=${categories[preferences.category]}&difficulty=${preferences.difficulty}`)
       .then(res => res.json())
