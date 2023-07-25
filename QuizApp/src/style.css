@@ -79,6 +79,17 @@
     background: #D6DBF5;
 }
 
+.answers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions-and-answers h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 h2 {
     color: red;
