@@ -6,7 +6,9 @@ export default function StartPage(props) {
         <div className="home">
             <div className="home-content">
                 <h1 className="title">Quizzical</h1>
+                <h3>Choose your questions!</h3>
                 <form className="inputs" onSubmit={props.handleSubmit}>
+                    <h3>Number of questions: </h3>
                     <input
                         min={1}
                         max={10}
@@ -20,6 +22,7 @@ export default function StartPage(props) {
                             }))
                         }}
                     />
+                    <h3>Category: </h3>
                     <select
                         name="category"
                         required
@@ -41,6 +44,7 @@ export default function StartPage(props) {
                         <option>Politics</option>
                         <option>Art</option>
                     </select>
+                    <h3>Difficulty: </h3>
                     <select
                         required
                         name="difficulty"

@@ -7,6 +7,7 @@
 }
 
 .title {
+    margin-top: 40px;
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -19,7 +20,6 @@
     height: 100vh;
     align-items: start;
     justify-content: center;
-    border: 1px black solid;
     background-color: #F5F7FB;
 }
 
@@ -82,19 +82,77 @@
 .answers {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 10%;
 }
 
 .questions-and-answers h1 {
     display: flex;
     align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 26px;
+}
+
+.home-content h3 {
+    display: flex;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+    color: #4D5B9E;
 }
 
-h2 {
-    color: red;
+
+.inputs h3 {
+    font-size: 16px;
+    justify-content: left;
+    color: black;
+    margin-bottom: 1px;
+    margin-top: 5px;
 }
 
-h3 {
-    color: green;
+.answers button {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 0.794px solid #4D5B9E;
+    text-align: center;
+    height: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.answers button:hover {
+    background-color: #D6DBF5;
+}
+
+.answers button:disabled {
+    background-color: #D6DBF5;
+    border: 0;
+}
+
+.line {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 1px;
+    background: #000000;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check h4{
+    margin-top: 3%;
+    color: #F5F7FB;
+    border-radius: 8px;
+    padding: 14px 20px 14px 20px;
+    background-color: #4D5B9E;
 }
