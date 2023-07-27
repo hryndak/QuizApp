@@ -127,9 +127,11 @@
 
 .answers button:hover {
     background-color: #D6DBF5;
+    cursor: pointer;
 }
 
 .answers button:disabled {
+    cursor: default;
     background-color: #D6DBF5;
     border: 0;
 }
@@ -147,12 +149,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .check h4{
-    margin-top: 3%;
     color: #F5F7FB;
     border-radius: 8px;
     padding: 14px 20px 14px 20px;
     background-color: #4D5B9E;
+}
+
+.check h4:hover {
+    cursor: pointer;
+}
+
+.answers-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.answers-show h3 {
+    color: #293264;
+    font-size: 20px;
+}
+
+.answers-show h4 {
+    color: #F5F7FB;
+    border-radius: 8px;
+    padding: 14px 20px 14px 20px;
+    background-color: #4D5B9E;
+    margin-left: 1%;
+}
+
+.answers-show h4:hover {
+    cursor: pointer;
 }

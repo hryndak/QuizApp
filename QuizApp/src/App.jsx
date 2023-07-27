@@ -41,11 +41,12 @@ export default function App() {
     setStarted(true);
   }
 
-
   return (
     <>
       {started ? (<Quizblock
-        data={data} />) : (<StartPage
+        data={data}
+        setStarted={setStarted}
+        />) : (<StartPage
           setPreferences={setPreferences}
           handleSubmit={handleSubmit}
         />)}
