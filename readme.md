@@ -18,6 +18,6 @@ This is the final solo project of the 'Learn React with Bob Ziroll'.
 
 ## Screenshots
 
-![App Screenshot](./firstimg.png)
-![App Screenshot](./secondimg.png)
+![App Screenshot](firstimg.PNG)
+![App Screenshot](second.PNG)
 
